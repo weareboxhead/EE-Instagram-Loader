@@ -116,7 +116,7 @@ class Instagram_loader {
 		// If the query succeeded, add the ids to our array 
 		if ($result->num_rows > 0) {
 			foreach ($result->result() as $row) {
-				$localIds[] = $row->field_id_ . $this->getConfig(['fieldIds', 'id']);
+				$localIds[] = $row->{'field_id_' . $this->getConfig(['fieldIds', 'id'])};
 			}
 		}
 
