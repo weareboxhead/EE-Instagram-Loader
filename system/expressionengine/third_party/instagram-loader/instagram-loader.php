@@ -10,10 +10,10 @@ $plugin_info = array(
 
 class Instagram_loader {
 	private $config = array(
-		'client_id' 	=> '',
 		'user_id' 		=> '',
-		'channel_id' 	=> '',
+		'client_id' 	=> '',
 		'access_token' 	=> '',
+		'channel_id' 	=> '',
 
 		'fieldIds' 		=> array(
 			'image_url' 	=>	'',
