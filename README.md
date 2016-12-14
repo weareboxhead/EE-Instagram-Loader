@@ -27,7 +27,7 @@ Instagram Loader uses the following fields, which should all be of type 'Text In
 
 ## <a name="config"></a>Config
 
-The config array is located in `/system/expressionengine/third_party/instagram-loader/instagram-loader.php`.
+The config array is located in `/system/expressionengine/third_party/instagram-loader/pi.instagram-loader.php`.
 
 Each key needs a value (all are required) and should be a string.
 
