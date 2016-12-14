@@ -7,7 +7,7 @@ More specifically, Instagram Loader retrieves the latest Instagrams for the give
 ## Usage
 
 * Download and extract the plugin files
-* Copy `/system/expressionengine/third_party/instagram-loader` to your site's `/system/expressionengine/third_party/` directory
+* Copy `/system/user/addons/instagramloader` to your site's `/system/user/addons/` directory
 * Create the [Fields](#fields) and a corresponding Channel
 * Fill in the [config](#config)
 * Install the plugin
@@ -27,7 +27,7 @@ Instagram Loader uses the following fields, which should all be of type 'Text In
 
 ## <a name="config"></a>Config
 
-The config array is located in `/system/expressionengine/third_party/instagram-loader/pi.instagram-loader.php`.
+The config array is located in `/system/user/addons/instagramloader/pi.instagramloader.php`.
 
 Each key needs a value (all are required) and should be a string.
 
