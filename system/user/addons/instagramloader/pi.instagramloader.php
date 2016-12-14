@@ -1,14 +1,6 @@
 <?php if (! defined('BASEPATH')) exit('No direct script access allowed');
 
-$plugin_info = array(
-	'pi_name'		 	=> 'Instagram Loader',
-	'pi_version'	  	=> '1.0',
-	'pi_author'	   		=> 'Boxhead',
-	'pi_description'  	=> 'Appends the most recent Instagrams to the database'
-);
-
-
-class Instagram_loader {
+class InstagramLoader {
 	private $config = array(
 		'user_id' 		=> '',
 		'client_id' 	=> '',
@@ -141,7 +133,7 @@ class Instagram_loader {
 	function writeInstagrams($content) {
 		// Instantiate EE Channel Entries API
 		ee()->load->library('api');
-		ee()->api->instantiate('channel_entries');
+		ee()->legacy_api->instantiate('channel_entries');
 
 
 		foreach($content as $instagram)

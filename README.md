@@ -1,4 +1,4 @@
-# Instagram Loader (EE 2)
+# Instagram Loader (EE 3)
 
 Retrieves Instagram content from a given account and saves the content as individual Channel Entries.
 
@@ -11,7 +11,7 @@ More specifically, Instagram Loader retrieves the latest Instagrams for the give
 * Create the [Fields](#fields) and a corresponding Channel
 * Fill in the [config](#config)
 * Install the plugin
-* Include `{exp:instagram_loader}` in a template file and load the template
+* Include `{exp:instagramloader}` in a template file and load the template
 
 ## <a name="fields"></a>Fields
 
